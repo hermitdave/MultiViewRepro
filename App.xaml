@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="MultiWindowRepro.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:infrastructure="using:MultiWindowRepro.Infrastructure"
+    xmlns:local="using:MultiWindowRepro"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+            <infrastructure:Locator x:Name="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
